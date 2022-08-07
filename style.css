@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.head {
+  background-color: #686973;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 2s00px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo {
+  margin-top: 20px;
+}
+.list-items {
+  list-style: none;
+  color: #fff;
+  margin-right: 25px;
+}
+.navBtn {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-hero > h3 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.left-hero {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.right-hero > p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.right-hero .input {
+  background-color: #fff;
+  width: 350px;
+  height: 50px;
+}
+input {
+  /* width: 350px; */
+  height: 50px;
+  border: none;
+  padding: 10px;
+}
+.input-btn {
+  background-color: #acd7bc;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  float: right;
+  margin: 5px;
+}
+/* // main  */
+.main {
+  margin-top: 30px;
+}
+.one > h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.numbers {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.numbers > div {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.numbers > div > h3 {
+  font-size: 50px;
+}
+.numbers > div > h5 {
+  font-size: 16px;
+  color: #686973;
+}
+.main-image {
+  margin-left: 25%;
+}
+.one {
+  margin-bottom: 50px;
+}
+/* // two  */
+.two > h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.two-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sprite {
+  width: 500px;
+  height: 450px;
+}
+.two-right-image {
+  background: url("./pexels-fauxels-3184405.jpg") no-repeat;
+  background-size: 150%;
+  background-position-x: -260px;
+  background-position-y: 10px;
+}
+
+.two-left > h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.two-left > p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #30d058;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+}
+/* //three  */
+.three-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.three-left-image {
+  background: url("./pexels-fauxels-3184603.jpg");
+  background-size: 100%;
+  background-position-x: 00px;
+}
+.three-left > h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.three-left > p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+/* //four  */
+.four-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.four-right-image {
+  background: url("./pexels-linkedin-sales-navigator-2182969.jpg") no-repeat;
+  background-size: 130%;
+  background-position-x: 0px;
+}
+.four-left > h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.four-left > p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+/* // section 2  */
+.five {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.five-head {
+  font-size: 40px;
+  font-weight: 600;
+}
+.five-para {
+  font-size: 16px;
+  font-weight: 200;
+}
+/* //six  */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.card {
+  width: 300px;
+  height: 450px;
+}
+.card-image {
+  width: 300px;
+  height: 400px;
+}
+.one-card {
+  background: url("./pexels-mikhail-nilov-8937870.jpg") no-repeat;
+  background-size: 100%;
+}
+.two-card {
+  background: url("./pexels-precious-judah-9154594.jpg") no-repeat;
+  background-size: 100%;
+  background-position-y: -50px;
+}
+.three-card {
+  background: url("./pexels-christina-morillo-1181424.jpg") no-repeat;
+  background-size: 100%;
+  background-position-y: -50px;
+}
+.card-name {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
